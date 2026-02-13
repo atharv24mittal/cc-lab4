@@ -4,7 +4,7 @@ import os
 import time
 import sys
 import json
-
+ 
 RABBIT_HOST = os.getenv('RABBIT_HOST', 'localhost')
 QUEUE_NAME = os.getenv('QUEUE_NAME', 'chat_queue')
 TARGET_QUEUE = os.getenv('TARGET_QUEUE')
